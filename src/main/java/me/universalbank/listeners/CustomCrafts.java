@@ -35,6 +35,15 @@ public class CustomCrafts {
         cobwebRecipe.setIngredient('S', Material.STRING);
         Bukkit.addRecipe(cobwebRecipe);
 
+        // === 8 Gold + Apple -> Golden Apple ===
+        ItemStack goldenAppleResult = new ItemStack(Maerial.GOLDEN_APPLE, 1);
+        NamespacedKey goldenAppleKey = new NamespacedKey(plugin, "apple_to_gapple");
+        ShapedRecipe goldenAppleRecipe = new ShapedRecipe(goldenAppleKey, goldenAppleResult);
+        goldenAppleRecipe.shape("GGG", "GAG", "GGG");
+        goldenAppleRecipe.setIngredient('G', Material.GOLD_INGOT);
+        goldenAppleRecipe.setIngredient('A', Material.APPLE);
+        Bukkit.addRecipe(goldenAppleRecipe);
+
         // === 1 White Wool -> 4 String ===
         ItemStack stringResult = new ItemStack(Material.STRING, 4);
         NamespacedKey stringKey = new NamespacedKey(plugin, "string_from_white_wool");
