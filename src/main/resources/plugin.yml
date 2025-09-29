@@ -1,0 +1,50 @@
+name: PaxMC
+version: '2.0'
+main: me.universalbank.Main
+api-version: '1.21'
+author: UniversalBank
+depend: [SmartSpawner]
+
+commands:
+  pax:
+    description: Main PaxMC command
+    usage: /<command> [reload]
+  vp:
+    description: VoteParty alias
+    usage: /<command>
+  bal:
+    description: Balance alias
+    usage: /<command>
+  discord:
+    description: Join the Discord server
+    usage: /<command>
+  map:
+    description: View the live map
+    usage: /<command>
+  store:
+    description: Donate to the server
+    usage: /<command>
+  buy:
+    description: Donate to the server
+    usage: /<command>
+  donate:
+    description: Donate to the server
+    usage: /<command>
+  help:
+    description: Server help
+    usage: /<command>
+  pl:
+    description: Blocked plugins list
+    usage: /<command>
+  plugins:
+    description: Blocked plugins list
+    usage: /<command>
+  '?':
+    description: Blocked plugins list
+    usage: /<command>
+  version:
+    description: Blocked version info
+    usage: /<command>
+  ver:
+    description: Blocked version info
+    usage: /<command>

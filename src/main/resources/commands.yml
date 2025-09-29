@@ -1,0 +1,89 @@
+# Main help command
+help:
+  messages:
+    - ""
+    - "&6&nCommands"
+    - ""
+    - "&a/rules &e- check server rules and guidelines"
+    - "&a/discord &e- join our discord"
+    - "&a/map &e- check world map"
+    - "&a/vote &e- vote for the server"
+    - "&a/store &e- donate to the server"
+    - ""
+  click: ""
+  hover: []
+
+# VoteParty alias
+vp:
+  messages:
+    - "&aVoteParty is live! Click to vote!"
+  click: "/voteparty"
+  hover:
+    - "&eClick to run /voteparty"
+
+# Balance alias
+bal:
+  messages:
+    - "&aYour balance info:"
+    - "&eCheck your stats with /balance"
+  click: "/balance"
+  hover:
+    - "&eClick to run /balance"
+
+# Discord link
+discord:
+  messages:
+    - "&9Join our Discord server!"
+  click: "https://discord.gg/9Rv5E9uVeC"
+  hover:
+    - "&eClick to open Discord invite"
+
+# Live map
+map:
+  messages:
+    - "&aCheck the live map!"
+  click: "http://map.paxmc.com"
+  hover:
+    - "&eClick to open map"
+
+# Store / Donate aliases
+store:
+  messages:
+    - "&9Click to donate to the server!"
+  click: "https://paxmc.com/store/"
+  hover:
+    - "&eClick to open the store"
+
+buy:
+  alias: store
+
+donate:
+  alias: store
+
+# Blocked commands
+pl:
+  messages:
+    - "&cNo, you are not allowed to do that! Absolutely not!"
+  click: ""
+  hover: []
+
+bukkit:pl:
+  alias: pl
+
+bukkit:version:
+  alias: pl
+
+bukkit:plugins:
+  alias: pl
+
+plugins:
+  alias: pl
+
+'?':
+  alias: pl
+
+version:
+  alias: pl
+
+ver:
+  alias: pl

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="paxmc:jar">
+    <output-path>$USER_HOME$/Desktop/MC/plugins</output-path>
+    <root id="archive" name="paxmc.jar">
+      <element id="module-output" name="paxmc" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,41 @@
+time-between-messages: 900
+random: false
+
+broadcasts:
+  support:
+    messages:
+      - ""
+      - "                              &eSupport PaxMC "
+      - "                           &7&o(Hover to support.)"
+      - ""
+    click: "https://paxmc.com/store/"
+    hover:
+      - "&eClick to support!"
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    exempted-players: []
+
+  vote:
+    messages:
+      - ""
+      - "                         &aGet rewards by voting! "
+      - "                             &7&o(Hover to vote.)"
+      - ""
+    click: "/vote"
+    hover:
+      - "&eClick to vote!"
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    exempted-players:
+      - exempted-player1
+      - exempted-player2
+
+  discord:
+    messages:
+      - ""
+      - "                            &9Join our Discord! "
+      - "                             &7&o(Hover to join.)"
+      - ""
+    click: "https://discord.paxmc.com"
+    hover:
+      - "&eClick to join!"
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    exempted-players: []
